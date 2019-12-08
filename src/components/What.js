@@ -1,15 +1,15 @@
 import React from 'react';
 
-function Topics() {
+function What() {
   return (
     <div className="App">
       <header className="App-header">
         <p>
-          TOPICS
+          WHAT
         </p>
       </header>
     </div>
   );
 }
 
-export default Topics;
+export default What;

@@ -1,16 +1,16 @@
 import React from 'react';
-
-function About() {
+import HomepageImage from './HomepageImage';
+function Who() {
   return (
     <div className="App">
       <header className="App-header">
+        <HomepageImage />
         <p>
-          ABOUT
+          WHO
         </p>
-
       </header>
     </div>
   );
 }
 
-export default About;
+export default Who;

@@ -1,24 +1,29 @@
 import React from 'react';
 import './App.css';
-import HomepageImage from './components/HomepageImage'
 import NavBar from './components/Navbar';
-import About from './components/About';
-import Home from './components/Home';
-import Topics from './components/Topics';
+import Resume from './components/Resume';
+import Who from './components/Who';
+import What from './components/What';
+import {BrowserRouter as Router,
+        Switch,
+        Route
+        } from 'react-router-dom';
+
 
 function App() {
   return (
-    <div className="App">
-        <NavBar/>
-        <About/>
-        <Home/>
-        <Topics/>
-        <HomepageImage />
-        <p>
-          Roughdrafttttt
-        </p>
+    <Router>
+        <div className="App">
 
-    </div>
+            <NavBar/>
+            <Switch>
+                <Route path='/' exact component ={Who}/>
+                <Route path='/resume' exact component ={Resume}/>
+                <Route path='/what' exact component ={What}/>
+            </Switch>
+        </div>      
+    </Router>
+
   );
 }
 

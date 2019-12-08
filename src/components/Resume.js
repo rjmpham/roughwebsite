@@ -1,15 +1,16 @@
 import React from 'react';
 
-function Home() {
+function Resume() {
   return (
     <div className="App">
       <header className="App-header">
         <p>
-          HOME
+          WORK
         </p>
+
       </header>
     </div>
   );
 }
 
-export default Home;
+export default Resume;
