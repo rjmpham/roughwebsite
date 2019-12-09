@@ -1,16 +1,18 @@
 import React from 'react';
 import HomepageImage from './HomepageImage';
-function Who() {
+
+function Contact() {
   return (
     <div className="App">
       <header className="App-header">
         <HomepageImage />
+
         <p>
-          WHO
+            CONTACT
         </p>
       </header>
     </div>
   );
 }
 
-export default Who;
+export default Contact;

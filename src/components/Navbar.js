@@ -12,10 +12,13 @@ function Navbar() {
             
             <h1>Richard Pham</h1>
             <u1 className='nav-links'>
-                <Link style={navStyle} to='/'>
-                    <li>Who</li>
+                <Link style={navStyle} to='/home'>
+                    <li>Home</li>
                 </Link>
-                <Link style={navStyle} to='/What'>
+                <Link style={navStyle} to='/about'>
+                    <li>About</li>
+                </Link>
+                <Link style={navStyle} to='/what'>
                     <li>What</li>
                 </Link>
                 <Link style={navStyle} to='/resume'>
