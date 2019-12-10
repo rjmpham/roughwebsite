@@ -9,7 +9,7 @@ function About() {
             <div className='profileImage'>
                     <Profile />
             </div>
-            <p className='textImage'>
+            <p className='textProfile'>
 
                 I have graduated from the University of Calgary with a degree in Computer Science. 
                 Since then I have been learning React, JavaScript, and HTML to peruse a career in front end development. 

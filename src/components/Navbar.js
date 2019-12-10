@@ -24,10 +24,9 @@ function Navbar() {
                 <Link style={navStyle} to='/resume'>
                     <li>Resume</li>
                 </Link>
-                <Link style={navStyle} to='/Contact'>
+                <Link style={navStyle} to='/contact'>
                     <li>Contact</li>
                 </Link>
-
             </u1>
         </div>
   );

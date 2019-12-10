@@ -1,9 +1,9 @@
 import React from 'react';
-import img from './profile.jpeg';
+import img from  './santi.jpg';
 
-function Project1Photo() {
+function Project1Photo(){
   return (
-    <img src={img} style={{width: 200}} fluid alt='Profile' />
+    <img src={img} style={{width: 300}} fluid alt='santi screenshot' />
   );
 }
 

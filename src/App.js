@@ -6,6 +6,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
+//import Santi from './components/demo/Santi'
 
 import {BrowserRouter as Router,
         Switch,
@@ -26,6 +27,8 @@ function App() {
                 <Route path='/projects' exact component ={Projects}/>
                 <Route path='/resume' exact component ={Resume}/>
                 <Route path='/contact' exact component ={Contact}/>
+                {/*<Route path='/santi' exact component ={Santi}/>*/}
+
             </Switch>
         </div>      
     </Router>
