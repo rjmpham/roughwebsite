@@ -3,7 +3,7 @@
 }
 
 .App-header {
-    background: linear-gradient(110deg, #f5882e 60%, #ffaa3b 60%);
+    background: linear-gradient(110deg, #ff5555 60%, #ff8888 60%);
     min-height: 90vh;
     display: flex;
     flex-direction: column;
@@ -33,20 +33,19 @@
 
 
 .container {
-    width: 80%;
-    height: 200px;
-    background: black;
+    width: 60%;
+    height: 60vs;
     margin: auto;
     padding: 10px;
+    float: center;
 }
 .one {
     width: 15%;
-    height: 200px;
+    height: 300px;
     float: left;
 }
 .two {
-    margin-left: 15%;
-    height: 200px;
+    height: 300px;
 }
 
 
