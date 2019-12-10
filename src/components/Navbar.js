@@ -18,8 +18,8 @@ function Navbar() {
                 <Link style={navStyle} to='/about'>
                     <li>About</li>
                 </Link>
-                <Link style={navStyle} to='/what'>
-                    <li>What</li>
+                <Link style={navStyle} to='/projects'>
+                    <li>Projects</li>
                 </Link>
                 <Link style={navStyle} to='/resume'>
                     <li>Resume</li>

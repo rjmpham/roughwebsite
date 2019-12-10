@@ -1,13 +1,18 @@
 import React from 'react';
-import HomepageImage from './HomepageImage';
 function Home() {
   return (
     <div className="App">
       <header className="App-header">
-        <HomepageImage />
-        <p>
-          HOME
-        </p>
+        <div className='home-layout'>
+
+            <p>
+                
+            </p>
+            <p className='home-text'>
+            I'm Richard Pham
+            </p>
+            <p>I am a web developer, a programmer, a problem solver.</p>
+        </div>
       </header>
     </div>
   );
